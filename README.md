@@ -1,0 +1,2 @@
+# WhoDatPokebot
+Sprite Repository
