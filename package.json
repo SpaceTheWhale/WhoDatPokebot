@@ -1,0 +1,31 @@
+{
+  "name": "pokebot",
+  "version": "1.0.0",
+  "description": "Sprite Repository",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "imagemagick": "^0.1.3",
+    "twitter-api-v2": "^1.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceTheWhale/WhoDatPokebot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SpaceTheWhale/WhoDatPokebot/issues"
+  },
+  "homepage": "https://github.com/SpaceTheWhale/WhoDatPokebot#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
