@@ -97,9 +97,9 @@ client.on('interactionCreate', async (interaction) => {
 			}  
 	} else if( commandName === 'end'){
 			gameOngoing = false;
-			await interaction.reply("https://raw.githubusercontent.com/SpaceTheWhale/WhoDatPokebot/main/commands/sprites/Full_Sprites/" + id + '.png');
-			await interaction.followUp('It was ' + pokeAPIName + '! That was a hard one! The game is now over.');
-
+			await interaction.reply('It was ' + pokeAPIName + '! That was a hard one! The game is now over.');
+			await interaction.followUp("https://raw.githubusercontent.com/SpaceTheWhale/WhoDatPokebot/main/commands/sprites/Full_Sprites/" + id + '.png');
+			
 	}
 });
 
